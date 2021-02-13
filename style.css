@@ -220,4 +220,64 @@
     }
 }
     
-@media (min-width: 1200px) {}
+@media (min-width:1200px) and (max-width:1299.98px){
+    footer{
+        position: relative;
+        top: 30vh;
+        zoom: 125%;
+    }
+
+    #cabecalho {
+        position: relative;
+        left: 30vw;
+        
+        
+    }
+
+    #cabecalho h1{
+        font-size: 50px;
+    }
+
+    #cabecalho p{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    header img{
+        display: flex;
+        position: relative;
+        top: 40vh;
+        right: 21vw;
+       
+        
+    }
+}
+
+
+@media (min-width: 1900px) and (max-width:1999.98px) {
+    footer{
+        position: relative;
+        top: 10vh;
+        zoom: 140%;
+        
+    }
+
+    header img{
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    #cabecalho {
+        position: relative;
+        left: 24vw;
+    }
+
+    #cabecalho h1{
+        font-size: 70px;
+    }
+
+    #cabecalho p{
+        font-size: 50px;
+    }
+}
+
