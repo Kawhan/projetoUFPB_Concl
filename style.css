@@ -1,0 +1,223 @@
+* {
+    --cor-bg-principal: #1C1F3E;
+    --cor-letra-font: #E7E6E6;
+  }
+
+
+  *{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+
+    body{
+        background-color: var(--cor-bg-principal);
+        color: var(--cor-letra-font);
+    }
+
+    header{
+        display: flex;
+        margin-top: 10vh;
+
+        
+    }
+
+    header img{
+        padding: 0 10vw;
+    }
+    
+    #cabecalho {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        margin-left: 6vw;
+        
+    }
+
+    
+    .button{
+        display: flex;
+        align-items: center;
+
+        
+        
+    }
+
+    .button .imagens{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+        margin: 0 auto;
+
+    }
+    
+    .icons{
+        display: flex;
+        align-items: center;
+
+        
+    }
+
+    .icones{
+        width: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+        margin: 10px auto;
+
+        
+    }
+
+@media (max-width: 575.98px) {
+    
+    
+
+    header img{
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    header{
+        display: flex;
+        
+    }
+
+    #cabecalho{
+        
+        display: flex;
+        width: 80%;
+        margin: 0 60px;
+        
+    }
+
+
+    #cabecalho h1{
+        font-size: 35px;
+    }
+
+    #cabecalho p{
+        font-size: 20px;
+    }
+
+    .button .imagens{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 10px auto;
+
+    }
+
+
+}
+
+    
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    header img{
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    header{
+        display: flex;
+        
+    }
+
+    #cabecalho{
+        
+        display: flex;
+        width: 80%;
+        margin: 0 180px;
+        
+    }
+
+
+    #cabecalho h1{
+        font-size: 35px;
+    }
+
+    #cabecalho p{
+        font-size: 20px;
+    }
+
+    .button .imagens{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 10px auto;
+
+    }
+
+
+}
+    
+    
+@media (min-width: 768px) and (max-width: 991.98px) {
+      
+    
+    header img{
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    header{
+        display: flex;
+        
+    }
+
+    #cabecalho{
+        
+        display: flex;
+        width: 90%;
+        margin: 0 260px;
+        
+    }
+
+
+    #cabecalho h1{
+        font-size: 35px;
+
+    }
+
+    #cabecalho p{
+        font-size: 20px;
+    }
+
+    .button .imagens{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 10px auto;
+
+    }
+
+
+}
+
+    
+    
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    header img{
+        width: 60%;
+    }
+
+    .button{
+        position: relative;
+        top: 20vh;
+        
+
+        
+    }
+
+    
+    .icons{
+        position: relative;
+        top: 20vh;
+        
+        
+        
+    }
+}
+    
+@media (min-width: 1200px) {}
