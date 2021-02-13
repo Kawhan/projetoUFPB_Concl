@@ -254,7 +254,7 @@
 }
 
 
-@media (min-width: 1900px) and (max-width:1999.98px) {
+@media (min-width: 1900px){
     footer{
         position: relative;
         top: 10vh;
